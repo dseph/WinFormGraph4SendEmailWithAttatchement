@@ -51,12 +51,7 @@ namespace WinFormGraph4SendEmailWithAttatchement
 
             //SendToFiddler.IsChecked = true;
 
-            AppIdEntry.Text = "554669ca-9864-4f9e-8360-54e53bbe3f25";
-            TenantIdEntry.Text = "dd55b8f6-4d6e-4cfb-8982-5d5a44d3b5ae";
-            ClientSecretEntry.Text = "PnJ8Q~3mPMq5Nxk2EgF_3B8NKGwux06e_nq3QbY4";
-
-            FromAddress.Text = "danba@dseph.onmicrosoft.com";
-            ToAddress.Text = "danba@dseph.onmicrosoft.com";
+ 
             Subject.Text = "Test email message.";
             EditorBody.Text = "This is a test message from a program using the .Net Graph 4 API and using App flow oAuth.";
             AttatchmentFilePath.Text = "c:\\test\\largepicture.jpg";
